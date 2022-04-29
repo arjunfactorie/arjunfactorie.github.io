@@ -1,0 +1,75 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("https://i.guim.co.uk/img/media/0c64bbf0b3e15d5852058c2c409d94d79ac8d879/0_166_5000_3002/master/5000.jpg?width=620&quality=85&auto=format&fit=max&s=2e03ef6d89a8f1b1aa42770bcffcf34e");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("https://media.wired.com/photos/5e62c05142879100094363f1/master/w_1600,c_limit/photo_wiper_unintended-beauty_2.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("https://www.ericsson.com/4903ed/assets/global/qbank/2022/01/27/screen-shot-video-133021d41d8cd98f00b204e9800998ecf8427e.png?im=Resize,height=506.25,type=downsize;Crop,rect=(0,0,900,506),gravity=Center");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+.black{
+  background-color: black;
+color: #fff;
+width: fit-content;
+}
+.white{
+  background-color: white;
+  color: #000;
+  width: fit-content;
+}
+.piano{
+  background-color: aqua;
+}
